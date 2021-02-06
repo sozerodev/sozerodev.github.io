@@ -2,14 +2,14 @@ module.exports = {
   title: `soyoung's devLog`,
   description: `Blog posted about ...`,
   author: `soyoung kim`,
-  introduction: `stil working`,
+  introduction: `주니어 웹 개발자입니다.`,
   siteUrl: `https://sozerodev.github.io/`, // Your blog site url
   social: {
     twitter: ``, // Your Twitter account
     github: `sozerodev`, // Your GitHub account
     medium: ``, // Your Medium account
     facebook: ``, // Your Facebook account
-    linkedin: ``, // Your LinkedIn account
+    linkedin: `sozerodev`, // Your LinkedIn account
   },
   icon: `content/assets/felog.png`, // Add your favicon
   keywords: [`blog`],
