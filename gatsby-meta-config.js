@@ -2,7 +2,7 @@ module.exports = {
   title: `soyoung's devLog`,
   description: `Blog posted about ...`,
   author: `soyoung kim`,
-  introduction: `I explain with words and code. I explain with words and code. I explain with words and code.`,
+  introduction: `stil working`,
   siteUrl: `https://sozerodev.github.io/`, // Your blog site url
   social: {
     twitter: ``, // Your Twitter account
