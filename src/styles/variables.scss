@@ -18,14 +18,14 @@ $dark-gray: #333;
 $middle-gray: #7d7d7d;
 $light-gray: #aaa;
 
-// blog-templates
-$navigator-text-color: #ccc900;
-$navigator-background-color: #fceff7;
+// blog-templates(이전, 다음글 버튼 색상)
+$navigator-text-color: #01a2ff;
+$navigator-background-color: #ebfffb;
 $blockquote-text-color: #999;
 
-// code
-$inline-dimmed-color: #ece5f1;
-$inline-text-color: #4b2043;
+// code (``안에 쓰이는 코드 색상)
+$inline-dimmed-color: #d2fff5;
+$inline-text-color: #3e8bbe;
 
 // category
 $light-category-border-color: #ecf0f2;
