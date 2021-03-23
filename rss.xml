@@ -1,11 +1,124 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[soyoung's devLog]]></title><description><![CDATA[devLog]]></description><link>https://sozerodev.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Sun, 07 Feb 2021 15:51:36 GMT</lastBuildDate><item><title><![CDATA[starting github blog]]></title><description><![CDATA[깃허브 블로그 시작! 201…]]></description><link>https://sozerodev.github.io/etc/start/</link><guid isPermaLink="false">https://sozerodev.github.io/etc/start/</guid><pubDate>Sun, 07 Feb 2021 01:31:00 GMT</pubDate><content:encoded>&lt;h1 id=&quot;깃허브-블로그-시작&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EA%B9%83%ED%97%88%EB%B8%8C-%EB%B8%94%EB%A1%9C%EA%B7%B8-%EC%8B%9C%EC%9E%91&quot; aria-label=&quot;깃허브 블로그 시작 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;깃허브 블로그 시작!&lt;/h1&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[soyoung's devLog]]></title><description><![CDATA[devLog]]></description><link>https://sozerodev.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 23 Mar 2021 13:37:49 GMT</lastBuildDate><item><title><![CDATA[bpy모듈 설치하기]]></title><description><![CDATA[bpy모듈 설치 후기 bpy모듈을 설치하면서 하루종일 삽질한 후기… 을 병합하기 위해 라는 프로그램을 사용하게 되었다. 
+라는 프로그램에는 파이썬 스크립트를 쓸 수 있는 기능이 있는데 여기에서 사용하는 모듈(블렌더 파이썬)을 vsc…]]></description><link>https://sozerodev.github.io/cesium/blenderPy/</link><guid isPermaLink="false">https://sozerodev.github.io/cesium/blenderPy/</guid><pubDate>Tue, 23 Mar 2021 22:35:00 GMT</pubDate><content:encoded>&lt;h1 id=&quot;bpy모듈-설치-후기&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#bpy%EB%AA%A8%EB%93%88-%EC%84%A4%EC%B9%98-%ED%9B%84%EA%B8%B0&quot; aria-label=&quot;bpy모듈 설치 후기 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;bpy모듈 설치 후기&lt;/h1&gt;
+&lt;blockquote&gt;
+&lt;p&gt;bpy모듈을 설치하면서 하루종일 삽질한 후기…&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;Wavefront의 .obj파일&lt;/code&gt;을 병합하기 위해 &lt;code class=&quot;language-text&quot;&gt;블렌더&lt;/code&gt;라는 프로그램을 사용하게 되었다. &lt;/br&gt;
+&lt;code class=&quot;language-text&quot;&gt;블렌더&lt;/code&gt;라는 프로그램에는 파이썬 스크립트를 쓸 수 있는 기능이 있는데 여기에서 사용하는 &lt;code class=&quot;language-text&quot;&gt;bpy&lt;/code&gt;모듈(블렌더 파이썬)을 vsc에서도 가져다 쓰려면 bpy모듈을 설치(&lt;code class=&quot;language-text&quot;&gt;pip install bpy&lt;/code&gt;)해야 한다. &lt;/p&gt;
+&lt;p&gt;pip install bpy만 하면 될 줄 알았는데 되지 않던가요…? 그렇다면 가장 먼저 파이썬 버젼을 한번 살펴봅시다. &lt;/br&gt;&lt;/br&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;가장 중요한 것은 파이썬 버젼이 &lt;code class=&quot;language-text&quot;&gt;3.7&lt;/code&gt;이여야 한다. (3.6도 안되고 3.8도 안된다.)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;처음에 3.6으로 시도하다가 안돼서 높은 버젼으로 해야하나..? 싶어 3.8로 올려서했는데 그래도 안되길래 왜그럴까 했는데 알고보니 3.7만 쓰라고 되어 있었다…&lt;/li&gt;
+&lt;li&gt;bpy모듈에 대한 설명이 있는 &lt;a href=&quot;https://pypi.org/project/bpy/2.91a0/&quot;&gt;pypi사이트&lt;/a&gt; 에 보면 Requires에 Python버젼을 무조건 3.7로 하라고 명시되어 있다. &lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/br&gt;
+&lt;h2 id=&quot;테스트를-통해-확인&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%ED%85%8C%EC%8A%A4%ED%8A%B8%EB%A5%BC-%ED%86%B5%ED%95%B4-%ED%99%95%EC%9D%B8&quot; aria-label=&quot;테스트를 통해 확인 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;테스트를 통해 확인&lt;/h2&gt;
+&lt;p&gt;중간중간에 테스트를 하려면 &lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;import bpy
+
+for i in bpy.data.objects:
+    print(i.name)&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;를 실행해보자. 블렌더를 켜면 가장 먼저 기본적으로 있는 세가지 객체들이 존재한다. vsc에서 bpy모듈이 정상적으로 작동한다면 기본 세가지 객체의 name값인 Camera, Cube, Light가 나온다. &lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 795px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 63%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAECBf/EABUBAQEAAAAAAAAAAAAAAAAAAAEA/9oADAMBAAIQAxAAAAHJm0kjC//EABYQAAMAAAAAAAAAAAAAAAAAAAARIP/aAAgBAQABBQKUf//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8BP//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8BP//EABQQAQAAAAAAAAAAAAAAAAAAACD/2gAIAQEABj8CX//EABsQAAIBBQAAAAAAAAAAAAAAAAARARAhUWFx/9oACAEBAAE/Ie1vkWyUP//aAAwDAQACAAMAAAAQcC//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/ED//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/ED//xAAbEAEBAQACAwAAAAAAAAAAAAABEQAQMSFBcf/aAAgBAQABPxCU8HJPSfeESyC9Yad9RLv/2Q==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;테스트결과&quot;
+        title=&quot;테스트결과&quot;
+        src=&quot;/static/b5417b17b1ad3b0ab7ba2383f5b27f80/dc4d4/test.jpg&quot;
+        srcset=&quot;/static/b5417b17b1ad3b0ab7ba2383f5b27f80/f93b5/test.jpg 300w,
+/static/b5417b17b1ad3b0ab7ba2383f5b27f80/b4294/test.jpg 600w,
+/static/b5417b17b1ad3b0ab7ba2383f5b27f80/dc4d4/test.jpg 795w&quot;
+        sizes=&quot;(max-width: 795px) 100vw, 795px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;
+&lt;/br&gt;&lt;/br&gt;&lt;/p&gt;
+&lt;ol start=&quot;2&quot;&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;No module named &amp;#39;bpy_types&amp;#39;&lt;/code&gt; 에러 &lt;/br&gt;
+블렌더 자체가 오픈소스라 깃허브에 이슈에 관한 내용이 등록되어 있다. (&lt;a href=&quot;https://github.com/TylerGubala/blenderpy/issues/13&quot;&gt;바로여기&lt;/a&gt;)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;이건 로컬의 파이썬이 위치한 경로에서 폴더 위치만 바꿔주면 된다. &lt;/br&gt;
+bpy를 설치하고 나면 로컬의 파이썬이 위치한 경로에 들어가보자. &lt;/br&gt;
+내 컴퓨터의 경우 파이썬이 &lt;code class=&quot;language-text&quot;&gt;C:\Users\USER\AppData\Local\Programs\Python\Python37\Scripts&lt;/code&gt; 에 위치해 있다. &lt;/br&gt;
+bpy모듈을 설치하고 나면 이 Scripts폴더에 숫자(아마도 사용하는 블렌더의 버젼명)가 생성되어 있다.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 626px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 56.666666666666664%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAALABQDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAECBf/EABQBAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhADEAAAAe41Ao//xAAVEAEBAAAAAAAAAAAAAAAAAAABEP/aAAgBAQABBQIpf//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8BP//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8BP//EABQQAQAAAAAAAAAAAAAAAAAAACD/2gAIAQEABj8CX//EABoQAQEAAgMAAAAAAAAAAAAAAAABESExQVH/2gAIAQEAAT8hytrfrh2VX//aAAwDAQACAAMAAAAQww//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/ED//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/ED//xAAbEAEAAgIDAAAAAAAAAAAAAAABABEhUTGRsf/aAAgBAQABPxBgNUOoovDDqKqrOp7QcwZn/9k=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;script옮기기전&quot;
+        title=&quot;script옮기기전&quot;
+        src=&quot;/static/1111f153f014df9c14658a3c70430006/b28e6/script%EC%98%AE%EA%B8%B0%EA%B8%B0%EC%A0%84.jpg&quot;
+        srcset=&quot;/static/1111f153f014df9c14658a3c70430006/f93b5/script%EC%98%AE%EA%B8%B0%EA%B8%B0%EC%A0%84.jpg 300w,
+/static/1111f153f014df9c14658a3c70430006/b4294/script%EC%98%AE%EA%B8%B0%EA%B8%B0%EC%A0%84.jpg 600w,
+/static/1111f153f014df9c14658a3c70430006/b28e6/script%EC%98%AE%EA%B8%B0%EA%B8%B0%EC%A0%84.jpg 626w&quot;
+        sizes=&quot;(max-width: 626px) 100vw, 626px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;여기 있는 2.82 폴더를 상위 폴더인 Python37폴더에 옮겨준다. &lt;code class=&quot;language-text&quot;&gt;복사가 아니라 옮겨야 한다.&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 648px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 66.33333333333333%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAECBf/EABQBAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhADEAAAAe9LDQP/xAAVEAEBAAAAAAAAAAAAAAAAAAAQAf/aAAgBAQABBQJj/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPwE//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPwE//8QAFBABAAAAAAAAAAAAAAAAAAAAIP/aAAgBAQAGPwJf/8QAGRAAAgMBAAAAAAAAAAAAAAAAABEBECEx/9oACAEBAAE/IYg19EYYq//aAAwDAQACAAMAAAAQEA//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/ED//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/ED//xAAaEAACAwEBAAAAAAAAAAAAAAAAEQEhQTFR/9oACAEBAAE/EHQ3vhg3SEgjQ3bJ6vSNP//Z&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;옮긴후&quot;
+        title=&quot;옮긴후&quot;
+        src=&quot;/static/c80c936507f6d1e373ec38e64cc93bb6/6e52e/%EC%98%AE%EA%B8%B4%ED%9B%84.jpg&quot;
+        srcset=&quot;/static/c80c936507f6d1e373ec38e64cc93bb6/f93b5/%EC%98%AE%EA%B8%B4%ED%9B%84.jpg 300w,
+/static/c80c936507f6d1e373ec38e64cc93bb6/b4294/%EC%98%AE%EA%B8%B4%ED%9B%84.jpg 600w,
+/static/c80c936507f6d1e373ec38e64cc93bb6/6e52e/%EC%98%AE%EA%B8%B4%ED%9B%84.jpg 648w&quot;
+        sizes=&quot;(max-width: 648px) 100vw, 648px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;
+&lt;/br&gt;&lt;/br&gt;&lt;/p&gt;
+&lt;p&gt;근데 2018년도에 생긴 이슈인데 왜 아직도 수정을 안한건지 통 알 수가 없다…&lt;del&gt;도대체 왜…오픈소스인데 아무도 컨트리뷰션을 하지 않는건지…?&lt;/del&gt; &lt;/br&gt;&lt;/br&gt;&lt;/p&gt;
+&lt;ol start=&quot;3&quot;&gt;
+&lt;li&gt;이 밖의 No module named같은 에러가 뜬다면 &lt;code class=&quot;language-text&quot;&gt;pip install 필요한모듈명&lt;/code&gt; 을 써서 설치해주자.
+이때 pip 명령어가 터미널에서 먹지 않는 경우에는 파이썬의 환경변수를 잡아주어야 한다. (&lt;a href=&quot;https://wxmin.tistory.com/121&quot;&gt;참고&lt;/a&gt;)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/br&gt;
+&lt;hr&gt;
+&lt;h3 id=&quot;bpy-개발-시-참고-사이트&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#bpy-%EA%B0%9C%EB%B0%9C-%EC%8B%9C-%EC%B0%B8%EA%B3%A0-%EC%82%AC%EC%9D%B4%ED%8A%B8&quot; aria-label=&quot;bpy 개발 시 참고 사이트 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;bpy 개발 시 참고 사이트&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://docs.blender.org/manual/en/latest/&quot;&gt;blender docs&lt;/a&gt; &lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://blender.stackexchange.com/&quot;&gt;blender stack exchange&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://wiki.blender.org/wiki/Main_Page&quot;&gt;blender wiki&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[starting github blog]]></title><description><![CDATA[깃허브 블로그 시작! 201…]]></description><link>https://sozerodev.github.io/etc/start/</link><guid isPermaLink="false">https://sozerodev.github.io/etc/start/</guid><pubDate>Sun, 07 Feb 2021 01:31:00 GMT</pubDate><content:encoded>&lt;h1 id=&quot;깃허브-블로그-시작&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EA%B9%83%ED%97%88%EB%B8%8C-%EB%B8%94%EB%A1%9C%EA%B7%B8-%EC%8B%9C%EC%9E%91&quot; aria-label=&quot;깃허브 블로그 시작 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;깃허브 블로그 시작!&lt;/h1&gt;
 &lt;p&gt;2019년에 개발을 배워보겠다! 생각하고 이것저것 알아보면서 깃허브 블로그를 너무나 만들고 싶었는데 터미널 환경에서 작업하는게 너무 생소해서 만들 엄두를 못내고 있었다. &lt;/br&gt;
 그래서 &lt;a href=&quot;http://sozerodev.tistory.com&quot;&gt;티스토리의 블로그&lt;/a&gt; 만 써보다가 이번에 회사에서 리액트를 쓰게 되면서 어쩐지 할 수 있을 거 같단 생각이 들었고.. &lt;/br&gt;
 그런데 시간과 게으름 때문에 만드는 것을 미루다가 이번 참에 드디어 만들어보게 되었다. &lt;/br&gt;
 gatsby로 만드는 깃 블로그는 생각보다 구축하는데 어렵지 않았고.. &lt;code class=&quot;language-text&quot;&gt;yarn deploy&lt;/code&gt; 만 잘하면 되는구나..^^! 하며 무사히 배포 완료. &lt;/br&gt;
 입사 이후로 개발 블로그를 좀 소홀히 했었는데 게으름 피우기를 멀리하고 다시 열심히 글을 써보는 것으로.&lt;/br&gt;
 &lt;/br&gt;
-어찌됐건 다시 블로그를 열심히 써보겠습니다.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[리액트 컴포넌트에 대하여]]></title><description><![CDATA[Container와 Presenter]]></description><link>https://sozerodev.github.io/react/component/</link><guid isPermaLink="false">https://sozerodev.github.io/react/component/</guid><pubDate>Sun, 07 Feb 2021 06:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Container와 Presenter&lt;/p&gt;</content:encoded></item><item><title><![CDATA[useEffect와 useState]]></title><description><![CDATA[작년 11월 말부터 리액트를  시작했는데 어찌저찌 프로젝트 마무리가 다 되어 간다.. 
+어찌됐건 다시 블로그를 열심히 써보겠습니다.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[useEffect와 useState]]></title><description><![CDATA[작년 11월 말부터 리액트를  시작했는데 어찌저찌 프로젝트 마무리가 다 되어 간다.. 
 거의 우는 소리로 이게 뭐야~~ 내적 비명을 외치게 했던 것들 가운데.. useEffect와 useState…]]></description><link>https://sozerodev.github.io/react/useEffect_useState/</link><guid isPermaLink="false">https://sozerodev.github.io/react/useEffect_useState/</guid><pubDate>Sun, 07 Feb 2021 06:00:00 GMT</pubDate><content:encoded>&lt;blockquote&gt;
 &lt;p&gt;작년 11월 말부터 리액트를 &lt;code class=&quot;language-text&quot;&gt;난생 처음&lt;/code&gt; 시작했는데 어찌저찌 프로젝트 마무리가 다 되어 간다.. &lt;/br&gt;
 거의 우는 소리로 이게 뭐야~~ 내적 비명을 외치게 했던 것들 가운데.. useEffect와 useState.. 지금은 가장 많이 잘 쓰고 있다. 🤣 &lt;/p&gt;
@@ -13,7 +126,8 @@ gatsby로 만드는 깃 블로그는 생각보다 구축하는데 어렵지 않�
 &lt;h2 id=&quot;그래서-얘네가-뭔데-뭐하는건데&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EA%B7%B8%EB%9E%98%EC%84%9C-%EC%96%98%EB%84%A4%EA%B0%80-%EB%AD%94%EB%8D%B0-%EB%AD%90%ED%95%98%EB%8A%94%EA%B1%B4%EB%8D%B0&quot; aria-label=&quot;그래서 얘네가 뭔데 뭐하는건데 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;그래서 얘네가 뭔데? 뭐하는건데?&lt;/h2&gt;
 &lt;p&gt;그냥 한줄로 표현해서 &lt;code class=&quot;language-text&quot;&gt;저 값을 재사용하고싶고요...., 값이 바뀔때마다 특정 이벤트를 발생시켜주면 좋겠어요.....,,,&lt;/code&gt; 하는 것. &lt;/br&gt;
 useState를 이용해 값을 재사용하고 useEffect는 값이 바뀔 때마다 실행시키고 싶은 코드를 넣는다는 것이다. &lt;/br&gt;&lt;/p&gt;
-&lt;p&gt;추후 수정&lt;/p&gt;</content:encoded></item><item><title><![CDATA[about]]></title><description><![CDATA[Your name Thank you for reading my resume. If you want to contact me, Please send me an email.]]></description><link>https://sozerodev.github.io/resume-en/</link><guid isPermaLink="false">https://sozerodev.github.io/resume-en/</guid><pubDate>Sun, 27 Jan 2019 16:21:13 GMT</pubDate><content:encoded>&lt;h1 id=&quot;your-name&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#your-name&quot; aria-label=&quot;your name permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Your name&lt;/h1&gt;
+&lt;p&gt;추후 수정&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;     &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[리액트 컴포넌트에 대하여]]></title><description><![CDATA[Container와 Presenter]]></description><link>https://sozerodev.github.io/react/component/</link><guid isPermaLink="false">https://sozerodev.github.io/react/component/</guid><pubDate>Sun, 07 Feb 2021 06:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Container와 Presenter&lt;/p&gt;</content:encoded></item><item><title><![CDATA[about]]></title><description><![CDATA[Your name Thank you for reading my resume. If you want to contact me, Please send me an email.]]></description><link>https://sozerodev.github.io/resume-en/</link><guid isPermaLink="false">https://sozerodev.github.io/resume-en/</guid><pubDate>Sun, 27 Jan 2019 16:21:13 GMT</pubDate><content:encoded>&lt;h1 id=&quot;your-name&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#your-name&quot; aria-label=&quot;your name permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Your name&lt;/h1&gt;
 &lt;div align=&quot;center&quot;&gt;
 &lt;p&gt;&lt;em&gt;Thank you for reading my resume. If you want to contact me, Please send me an email.&lt;/em&gt;&lt;/p&gt;
 &lt;/div&gt;</content:encoded></item></channel></rss>
