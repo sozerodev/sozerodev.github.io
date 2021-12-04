@@ -1,28 +1,59 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[soyoung's devLog]]></title><description><![CDATA[devLog]]></description><link>https://sozerodev.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 23 Mar 2021 13:39:33 GMT</lastBuildDate><item><title><![CDATA[bpy모듈 설치하기]]></title><description><![CDATA[bpy모듈 설치 후기 bpy모듈을 설치하면서 하루종일 삽질한 후기… 을 병합하기 위해 라는 프로그램을 사용하게 되었다. 
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[soyoung's devLog]]></title><description><![CDATA[devLog]]></description><link>https://sozerodev.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Sat, 04 Dec 2021 04:58:20 GMT</lastBuildDate><item><title><![CDATA[sharp 모듈 에러]]></title><description><![CDATA[노트북을 2015 intel 맥북 프로에서 2021 M1 맥북 에어로 바꾼 후 gatsby로 된 깃 블로그를 사용하려는 과정에서 문제가 있었음. 를 하면 자꾸만 요딴 에러가 뜨는 것…  해결책 출처 : https://stackoverflow.com…]]></description><link>https://sozerodev.github.io/etc/sharp_error/</link><guid isPermaLink="false">https://sozerodev.github.io/etc/sharp_error/</guid><pubDate>Sat, 04 Dec 2021 13:13:00 GMT</pubDate><content:encoded>&lt;p&gt;노트북을 2015 intel 맥북 프로에서 2021 M1 맥북 에어로 바꾼 후 gatsby로 된 깃 블로그를 사용하려는 과정에서 문제가 있었음.&lt;/p&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;npm run start&lt;/code&gt;를 하면 자꾸만 요딴 에러가 뜨는 것…&lt;br&gt;
+&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 1200px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 78.33333333333333%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAQCAYAAAAWGF8bAAAACXBIWXMAABYlAAAWJQFJUiTwAAACzElEQVQ4y42Uy04TYRTH5w0MYI2B3judaTu9z9Bph+EuN4FI6QUQWSgqJhqDVLRUQ4y6IIgaUHHDE/gA7owLE5a+g4k7ohtvuCB/z/dNhzRoDIt/zpnL9zvXGcEdz6DNHICo9cJIG4jGNAQiafjkJNzBGFq9IbT5wseW4JMTEOlwIEQA8p1iFC4SAzXCjgsWvHIK/ohKWak8Kw9l5ZHicAWUQ+j/YEefCVI8CSmmwh+mMkMpUpLLS9m6RQvuPAL/VyDbF4q6gVwsjdO+CAGiXK4Gy8SATn/kL9mgRrAQVDSIikrSINGA5LjOJdUlJ7IIRjX4KXt/2JJdiScYP4TbYIEdUFQT4ZSBUDLHwSwAmzRrg2VtiAVk7fBKCe6zljAdlswAHEiwEMEj6Q6eIRuSnTm3UY37AfJ5f2l49lpZsDqQRZFiGX7ILpeXTPdYqdYzzRoUZcU2obGHjUPhJQej7VBooUPUvwgrm7WArhXKlGXN7jExn0mi99nu+lkAytBJsEYJDreEE60BNLWJcDiDcLgsneSS6taSwy1z21IX85vpnWayTeyaWMKlngG8mZ3DzswFPJkoYv1cARukrUIZW/kSqYityRKeT5ZRyHWhP5XFsJrDSFrHkGZgot1AXu9EKWOiTzUgvM4XgPU1/Lx/D+/nL+Pd/BW8JW2XZ/CyfB6vyDLtTM9iuzSNF8UpbBam8IyCblLQSd1EdyKDwZSOLP0HhM2zY8DDB/hevYsDgh48foRvq6vYXbiGD1cXuHZJGxMF1IZGsTaexyBl6KZ+BWnpT3lkXnILlc7aJzwdGcPvWg17t5bwZamCveVlfL1dwY/aCn5V72B/pYr9WhWfKxV8WlzEx+s3cPPMCC529WPO7EVAtD5Lp/2lpJUk8qaO8ayG0WwGox09GMp2Y9jsR1+mEyaV05nMoId6N0A9UmmVvASRaZnF+pQbP70/pW0NQuiL5G4AAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;sharp 에러&quot;
+        title=&quot;sharp 에러&quot;
+        src=&quot;/static/c2d3e40277c1305726f07c1e8ac89253/c1b63/sharp_error.png&quot;
+        srcset=&quot;/static/c2d3e40277c1305726f07c1e8ac89253/5a46d/sharp_error.png 300w,
+/static/c2d3e40277c1305726f07c1e8ac89253/0a47e/sharp_error.png 600w,
+/static/c2d3e40277c1305726f07c1e8ac89253/c1b63/sharp_error.png 1200w,
+/static/c2d3e40277c1305726f07c1e8ac89253/d61c2/sharp_error.png 1800w,
+/static/c2d3e40277c1305726f07c1e8ac89253/ca3c3/sharp_error.png 1850w&quot;
+        sizes=&quot;(max-width: 1200px) 100vw, 1200px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;h3 id=&quot;해결책&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%ED%95%B4%EA%B2%B0%EC%B1%85&quot; aria-label=&quot;해결책 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;해결책&lt;/h3&gt;
+&lt;p&gt;출처 : &lt;a href=&quot;https://stackoverflow.com/questions/54409953/cant-install-sharp&quot;&gt;https://stackoverflow.com/questions/54409953/cant-install-sharp&lt;/a&gt;&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;npm install sharp@0.23.2&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;에러가 생겼던 원인은 sharp모듈에서 아직 M1 맥북을 지원해주지 않는 탓이라고..? 근데 왜 버젼을 다운그레이드 해야 해결이 되는지 모르겠다. 아무튼 버젼을 확 낮춰주면 잃어버릴뻔한 gatsby 블로그가 아주 잘 사용이 된다.&lt;/p&gt;
+&lt;p&gt;이것 때문에 올해 초에 깃허브 블로그를 개설해놓고 사용하지 못한 문제가 있었다.. 라는 더할 나위 없는 좋은 핑계 ^~^ &lt;/br&gt;&lt;/p&gt;
+&lt;p&gt;패러럴즈로 우분투 환경에서까지 시도해보고 정말 다양한 시도를 했다..~&lt;/br&gt; 그래도 맥 환경에서 성공해서 너무 다행~&lt;/p&gt;
+&lt;p&gt;진짜 딱 마지막으로 시도해보고 안되면 티스토리든 벨로그든 옮겨버리겠다 생각했는데 12월이 되어서야 딱 되는 것을 보고 그래도 아직 할만한가보군 싶어 다시 글을 써보는 것으로..&lt;/p&gt;</content:encoded></item><item><title><![CDATA[bpy모듈 설치하기]]></title><description><![CDATA[bpy모듈 설치 후기 bpy모듈을 설치하면서 하루종일 삽질한 후기… 을 병합하기 위해 라는 프로그램을 사용하게 되었다. 
 라는 프로그램에는 파이썬 스크립트를 쓸 수 있는 기능이 있는데 여기에서 사용하는 모듈(블렌더 파이썬)을 vsc…]]></description><link>https://sozerodev.github.io/cesium/blenderPy/</link><guid isPermaLink="false">https://sozerodev.github.io/cesium/blenderPy/</guid><pubDate>Tue, 23 Mar 2021 22:35:00 GMT</pubDate><content:encoded>&lt;h1 id=&quot;bpy모듈-설치-후기&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#bpy%EB%AA%A8%EB%93%88-%EC%84%A4%EC%B9%98-%ED%9B%84%EA%B8%B0&quot; aria-label=&quot;bpy모듈 설치 후기 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;bpy모듈 설치 후기&lt;/h1&gt;
 &lt;blockquote&gt;
 &lt;p&gt;bpy모듈을 설치하면서 하루종일 삽질한 후기…&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;Wavefront의 .obj파일&lt;/code&gt;을 병합하기 위해 &lt;code class=&quot;language-text&quot;&gt;블렌더&lt;/code&gt;라는 프로그램을 사용하게 되었다. &lt;/br&gt;
-&lt;code class=&quot;language-text&quot;&gt;블렌더&lt;/code&gt;라는 프로그램에는 파이썬 스크립트를 쓸 수 있는 기능이 있는데 여기에서 사용하는 &lt;code class=&quot;language-text&quot;&gt;bpy&lt;/code&gt;모듈(블렌더 파이썬)을 vsc에서도 가져다 쓰려면 bpy모듈을 설치(&lt;code class=&quot;language-text&quot;&gt;pip install bpy&lt;/code&gt;)해야 한다. &lt;/p&gt;
+&lt;code class=&quot;language-text&quot;&gt;블렌더&lt;/code&gt;라는 프로그램에는 파이썬 스크립트를 쓸 수 있는 기능이 있는데 여기에서 사용하는 &lt;code class=&quot;language-text&quot;&gt;bpy&lt;/code&gt;모듈(블렌더 파이썬)을 vsc에서도 가져다 쓰려면 bpy모듈을 설치(&lt;code class=&quot;language-text&quot;&gt;pip install bpy&lt;/code&gt;)해야 한다.&lt;/p&gt;
 &lt;p&gt;pip install bpy만 하면 될 줄 알았는데 되지 않던가요…? 그렇다면 가장 먼저 파이썬 버젼을 한번 살펴봅시다. &lt;/br&gt;&lt;/br&gt;&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;
 &lt;p&gt;가장 중요한 것은 파이썬 버젼이 &lt;code class=&quot;language-text&quot;&gt;3.7&lt;/code&gt;이여야 한다. (3.6도 안되고 3.8도 안된다.)&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;처음에 3.6으로 시도하다가 안돼서 높은 버젼으로 해야하나..? 싶어 3.8로 올려서했는데 그래도 안되길래 왜그럴까 했는데 알고보니 3.7만 쓰라고 되어 있었다…&lt;/li&gt;
-&lt;li&gt;bpy모듈에 대한 설명이 있는 &lt;a href=&quot;https://pypi.org/project/bpy/2.91a0/&quot;&gt;pypi사이트&lt;/a&gt; 에 보면 Requires에 Python버젼을 무조건 3.7로 하라고 명시되어 있다. &lt;/li&gt;
+&lt;li&gt;bpy모듈에 대한 설명이 있는 &lt;a href=&quot;https://pypi.org/project/bpy/2.91a0/&quot;&gt;pypi사이트&lt;/a&gt; 에 보면 Requires에 Python버젼을 무조건 3.7로 하라고 명시되어 있다.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;/br&gt;
 &lt;h2 id=&quot;테스트를-통해-확인&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%ED%85%8C%EC%8A%A4%ED%8A%B8%EB%A5%BC-%ED%86%B5%ED%95%B4-%ED%99%95%EC%9D%B8&quot; aria-label=&quot;테스트를 통해 확인 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;테스트를 통해 확인&lt;/h2&gt;
-&lt;p&gt;중간중간에 테스트를 하려면 &lt;/p&gt;
+&lt;p&gt;중간중간에 테스트를 하려면&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;import bpy
 
 for i in bpy.data.objects:
     print(i.name)&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;를 실행해보자. 블렌더를 켜면 가장 먼저 기본적으로 있는 세가지 객체들이 존재한다. vsc에서 bpy모듈이 정상적으로 작동한다면 기본 세가지 객체의 name값인 Camera, Cube, Light가 나온다. &lt;/p&gt;
+&lt;p&gt;를 실행해보자. 블렌더를 켜면 가장 먼저 기본적으로 있는 세가지 객체들이 존재한다. vsc에서 bpy모듈이 정상적으로 작동한다면 기본 세가지 객체의 name값인 Camera, Cube, Light가 나온다.&lt;/p&gt;
 &lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 795px; &quot;
@@ -108,7 +139,7 @@ bpy모듈을 설치하고 나면 이 Scripts폴더에 숫자(아마도 사용하
 &lt;hr&gt;
 &lt;h3 id=&quot;bpy-개발-시-참고-사이트&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#bpy-%EA%B0%9C%EB%B0%9C-%EC%8B%9C-%EC%B0%B8%EA%B3%A0-%EC%82%AC%EC%9D%B4%ED%8A%B8&quot; aria-label=&quot;bpy 개발 시 참고 사이트 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;bpy 개발 시 참고 사이트&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://docs.blender.org/manual/en/latest/&quot;&gt;blender docs&lt;/a&gt; &lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://docs.blender.org/manual/en/latest/&quot;&gt;blender docs&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://blender.stackexchange.com/&quot;&gt;blender stack exchange&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://wiki.blender.org/wiki/Main_Page&quot;&gt;blender wiki&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</content:encoded></item><item><title><![CDATA[starting github blog]]></title><description><![CDATA[깃허브 블로그 시작! 201…]]></description><link>https://sozerodev.github.io/etc/start/</link><guid isPermaLink="false">https://sozerodev.github.io/etc/start/</guid><pubDate>Sun, 07 Feb 2021 01:31:00 GMT</pubDate><content:encoded>&lt;h1 id=&quot;깃허브-블로그-시작&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EA%B9%83%ED%97%88%EB%B8%8C-%EB%B8%94%EB%A1%9C%EA%B7%B8-%EC%8B%9C%EC%9E%91&quot; aria-label=&quot;깃허브 블로그 시작 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;깃허브 블로그 시작!&lt;/h1&gt;
