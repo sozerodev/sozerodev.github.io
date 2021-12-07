@@ -1,7 +1,7 @@
 ---
 title: 'sharp 모듈 에러'
 date: 2021-12-04 13:13:00
-category: 'etc'
+category: 'Error'
 draft: false
 ---
 
@@ -9,6 +9,10 @@ draft: false
 
 `npm run start`를 하면 자꾸만 요딴 에러가 뜨는 것...  
 ![sharp 에러](./sharp_error/sharp_error.png)
+
+```
+Error: Something went wrong installing the "sharp" modules
+```
 
 ### 해결책
 
