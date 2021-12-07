@@ -1,4 +1,17 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[soyoung's devLog]]></title><description><![CDATA[devLog]]></description><link>https://sozerodev.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Sat, 04 Dec 2021 04:58:20 GMT</lastBuildDate><item><title><![CDATA[sharp 모듈 에러]]></title><description><![CDATA[노트북을 2015 intel 맥북 프로에서 2021 M1 맥북 에어로 바꾼 후 gatsby로 된 깃 블로그를 사용하려는 과정에서 문제가 있었음. 를 하면 자꾸만 요딴 에러가 뜨는 것…  해결책 출처 : https://stackoverflow.com…]]></description><link>https://sozerodev.github.io/etc/sharp_error/</link><guid isPermaLink="false">https://sozerodev.github.io/etc/sharp_error/</guid><pubDate>Sat, 04 Dec 2021 13:13:00 GMT</pubDate><content:encoded>&lt;p&gt;노트북을 2015 intel 맥북 프로에서 2021 M1 맥북 에어로 바꾼 후 gatsby로 된 깃 블로그를 사용하려는 과정에서 문제가 있었음.&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[soyoung's devLog]]></title><description><![CDATA[devLog]]></description><link>https://sozerodev.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 07 Dec 2021 13:17:26 GMT</lastBuildDate><item><title><![CDATA[2021년 회고록]]></title><description><![CDATA[2020년 하반기에는 대학을 졸업하고, 사회생활을 처음 시작했고 이제 입사한지 1년 2개월차이다. 프로젝트 두세개정도를 진행 및 완수했나.. 한 일로는
+리액트를 이용하여 회사 솔루션에 대한 데모 페이지,
+파이썬을 활용한 3D…]]></description><link>https://sozerodev.github.io/etc/2021_look_back/</link><guid isPermaLink="false">https://sozerodev.github.io/etc/2021_look_back/</guid><pubDate>Sat, 04 Dec 2021 14:31:00 GMT</pubDate><content:encoded>&lt;p&gt;2020년 하반기에는 대학을 졸업하고, 사회생활을 처음 시작했고 이제 입사한지 1년 2개월차이다. 프로젝트 두세개정도를 진행 및 완수했나..&lt;/p&gt;
+&lt;p&gt;한 일로는
+리액트를 이용하여 회사 솔루션에 대한 데모 페이지,
+파이썬을 활용한 3D 파일의 고도화를 위한 자동화 프로그램?,
+스마트 시티 구현을 위해 Cesium JS에 위에서 만든 3D 파일들을 올리는 작업&lt;/p&gt;
+&lt;p&gt;다시금 회사 솔루션을 위해 리액트를 쓴다고 하지만 언제 시작이 될 지 모르겠다. @-@…&lt;/p&gt;
+&lt;h2 id=&quot;2022년에는-말이에요&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#2022%EB%85%84%EC%97%90%EB%8A%94-%EB%A7%90%EC%9D%B4%EC%97%90%EC%9A%94&quot; aria-label=&quot;2022년에는 말이에요 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;2022년에는 말이에요..&lt;/h2&gt;
+&lt;p&gt;미니프로젝트를 많게는 세개, 적개는 두개를 완수하고 싶다.
+하나는 웹프로젝트, 하나는 데이터 관련 프로젝트, 하나는 앱으로 구현하고 싶은데 마지막껀 시간적 여유가 허락한다면?
+&lt;/br&gt; 올해는 최근 몇년 중에서 가장 게으르게 산 해임이 확실하다. 그런가? 하고 생각해보니 정말 그렇다.
+지쳐서 아무것도 하질 못했다 라고 핑계를 대봐야.. 어차피 게으르든 안게으르든 숨을 쉬는 한 살아가는 것은 지친다..
+안게으르고 지치는 것이 죄책감이 덜하다.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[sharp 모듈 에러]]></title><description><![CDATA[노트북을 2015 intel 맥북 프로에서 2021 M1 맥북 에어로 바꾼 후 gatsby로 된 깃 블로그를 사용하려는 과정에서 문제가 있었음. 를 하면 자꾸만 요딴 에러가 뜨는 것…  해결책 출처 : https://stackoverflow.com…]]></description><link>https://sozerodev.github.io/Error/sharp_error/</link><guid isPermaLink="false">https://sozerodev.github.io/Error/sharp_error/</guid><pubDate>Sat, 04 Dec 2021 13:13:00 GMT</pubDate><content:encoded>&lt;p&gt;노트북을 2015 intel 맥북 프로에서 2021 M1 맥북 에어로 바꾼 후 gatsby로 된 깃 블로그를 사용하려는 과정에서 문제가 있었음.&lt;/p&gt;
 &lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;npm run start&lt;/code&gt;를 하면 자꾸만 요딴 에러가 뜨는 것…&lt;br&gt;
 &lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
@@ -23,6 +36,7 @@
         loading=&quot;lazy&quot;
       /&gt;
     &lt;/span&gt;&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;Error: Something went wrong installing the &amp;quot;sharp&amp;quot; modules&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;h3 id=&quot;해결책&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%ED%95%B4%EA%B2%B0%EC%B1%85&quot; aria-label=&quot;해결책 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;해결책&lt;/h3&gt;
 &lt;p&gt;출처 : &lt;a href=&quot;https://stackoverflow.com/questions/54409953/cant-install-sharp&quot;&gt;https://stackoverflow.com/questions/54409953/cant-install-sharp&lt;/a&gt;&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;npm install sharp@0.23.2&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
@@ -56,21 +70,21 @@ for i in bpy.data.objects:
 &lt;p&gt;를 실행해보자. 블렌더를 켜면 가장 먼저 기본적으로 있는 세가지 객체들이 존재한다. vsc에서 bpy모듈이 정상적으로 작동한다면 기본 세가지 객체의 name값인 Camera, Cube, Light가 나온다.&lt;/p&gt;
 &lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
-      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 795px; &quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 660px; &quot;
     &gt;
       &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 63%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAECBf/EABUBAQEAAAAAAAAAAAAAAAAAAAEA/9oADAMBAAIQAxAAAAHJm0kjC//EABYQAAMAAAAAAAAAAAAAAAAAAAARIP/aAAgBAQABBQKUf//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8BP//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8BP//EABQQAQAAAAAAAAAAAAAAAAAAACD/2gAIAQEABj8CX//EABsQAAIBBQAAAAAAAAAAAAAAAAARARAhUWFx/9oACAEBAAE/Ie1vkWyUP//aAAwDAQACAAMAAAAQcC//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/ED//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/ED//xAAbEAEBAQACAwAAAAAAAAAAAAABEQAQMSFBcf/aAAgBAQABPxCU8HJPSfeESyC9Yad9RLv/2Q==&apos;); background-size: cover; display: block;&quot;
+    style=&quot;padding-bottom: 63.33333333333333%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAANCAYAAACpUE5eAAAACXBIWXMAAAsTAAALEwEAmpwYAAAB50lEQVQ4y31T2ZaiUAzkE7qVTWSTfUd2tJfj08z/f1FNcoGxu3XmoUwu5haVSpCMskNQNYjOPeyqgx5lUIIYihdCdX0op+AB23PVfYSkOB6ORKBHOdzP37DbC/bVGbs0h0r/8WWBr/lKKuIPSPxjhglUP4ZG2DsnaKRu7wWQ/RA7guxHkKMEMiunXNmUc/wBQWjHKYy0gt2/4VD28MYbtMs7tGaCdqW86fBS1diVFdS0gEYXNbr3DBKzWkkuilTLgVPMcMsLnHqEk0+Ixl8wkwy6fcKBanQGXfwXJCvOcKSWTY5RuqilNjm65KPiuMICnVplcP4/SAceyFrIao9hCt2LYNALnKLGq+liR+peLYqEPeVcJ9OQnnrol2cUw4ysG5FTrKYr4rqj84S47ZH3E9J2RDVeRM71LMAgIeo6mG9TPuUV0mYQRAnFop8FYU6xIAImic70AiJtrh+IKY9pZ9N2EKQPhG5WohhnhHWLjC4n3SAWPaxaQWSSl9wmtyi73rdWn+4htzl83GDSQAwazpH2jX01Vmjefd8EqbPFO/n9TB7W8zvGz5vYISZi8LQ3Ut6AA3sWLs+3jWDl5lpniXMmBElB2SAhT8IvbWbDtHjV9CKyLcv33i3W0AB5YFk/4u9QOadP9g9eKHFJL3jJ2gAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
   &lt;img
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;테스트결과&quot;
         title=&quot;테스트결과&quot;
-        src=&quot;/static/b5417b17b1ad3b0ab7ba2383f5b27f80/dc4d4/test.jpg&quot;
-        srcset=&quot;/static/b5417b17b1ad3b0ab7ba2383f5b27f80/f93b5/test.jpg 300w,
-/static/b5417b17b1ad3b0ab7ba2383f5b27f80/b4294/test.jpg 600w,
-/static/b5417b17b1ad3b0ab7ba2383f5b27f80/dc4d4/test.jpg 795w&quot;
-        sizes=&quot;(max-width: 795px) 100vw, 795px&quot;
+        src=&quot;/static/62a3735f903d5c479444300512854328/1f083/test.png&quot;
+        srcset=&quot;/static/62a3735f903d5c479444300512854328/5a46d/test.png 300w,
+/static/62a3735f903d5c479444300512854328/0a47e/test.png 600w,
+/static/62a3735f903d5c479444300512854328/1f083/test.png 660w&quot;
+        sizes=&quot;(max-width: 660px) 100vw, 660px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
       /&gt;
@@ -86,21 +100,24 @@ bpy를 설치하고 나면 로컬의 파이썬이 위치한 경로에 들어가�
 bpy모듈을 설치하고 나면 이 Scripts폴더에 숫자(아마도 사용하는 블렌더의 버젼명)가 생성되어 있다.&lt;/p&gt;
 &lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
-      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 626px; &quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 1200px; &quot;
     &gt;
       &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 56.666666666666664%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAALABQDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAECBf/EABQBAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhADEAAAAe41Ao//xAAVEAEBAAAAAAAAAAAAAAAAAAABEP/aAAgBAQABBQIpf//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8BP//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8BP//EABQQAQAAAAAAAAAAAAAAAAAAACD/2gAIAQEABj8CX//EABoQAQEAAgMAAAAAAAAAAAAAAAABESExQVH/2gAIAQEAAT8hytrfrh2VX//aAAwDAQACAAMAAAAQww//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/ED//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/ED//xAAbEAEAAgIDAAAAAAAAAAAAAAABABEhUTGRsf/aAAgBAQABPxBgNUOoovDDqKqrOp7QcwZn/9k=&apos;); background-size: cover; display: block;&quot;
+    style=&quot;padding-bottom: 56.333333333333336%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAABYlAAAWJQFJUiTwAAAB10lEQVQoz21Sh67bMBDz//9d0ZHXOHGWhzxka3jbEnunvKbBQwUczlAYijxepLWG1gZVVaEfBjRSou+pNw31Hp1SsNSd89j3nbrDuq4YxhELdf621kIbE76jZZkxzyOex78VXnfWGiit4PYt3CzzhGkaX4htXeDdFrDRMgvEtwO+XyrkekE9AdXgPsuj7HecRYdEKJxyiaRUeMgBv6450m56w3vIySHqdINvcYxDpvDz3uAoDHLrntU7ZGbHMe9wLBQOqUQsNM6VxY+rwEfW4qE3FL3HrZ1xo4ciYzWul9+4JWck8RFZ+vhi2UGrFkZ16GQNaxSmwUI2FeqyILtzQM1jD9VJRLa3uN8vSNMMWZaFYQca7wMth8Dz4/DatqXha4yEaWQT7nf6nc+6bSGcSNOLSfKB0+lEPcFASYco/FMlE8pWBrK6rqA4dfpjWQrajDIkzYcfYQxZNqTuGtaGySZK8J3QexdUGVqLjmyzI8bxI5JULpQwH07dEI4IFc6nA7I8/7cobPddIe1mS8WKWAUrFEKgKHIsy5NwGPqAC5bv9yQo3Lbtv4TvM2RHvPCsrmnqFyErZEw0UjpZesHjkQZrXwnZMtvl+ju/cRwCOdf6OUMeFWP+AJGMTKWyAxEOAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
   &lt;img
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;script옮기기전&quot;
         title=&quot;script옮기기전&quot;
-        src=&quot;/static/1111f153f014df9c14658a3c70430006/b28e6/script%EC%98%AE%EA%B8%B0%EA%B8%B0%EC%A0%84.jpg&quot;
-        srcset=&quot;/static/1111f153f014df9c14658a3c70430006/f93b5/script%EC%98%AE%EA%B8%B0%EA%B8%B0%EC%A0%84.jpg 300w,
-/static/1111f153f014df9c14658a3c70430006/b4294/script%EC%98%AE%EA%B8%B0%EA%B8%B0%EC%A0%84.jpg 600w,
-/static/1111f153f014df9c14658a3c70430006/b28e6/script%EC%98%AE%EA%B8%B0%EA%B8%B0%EC%A0%84.jpg 626w&quot;
-        sizes=&quot;(max-width: 626px) 100vw, 626px&quot;
+        src=&quot;/static/942a952d0bb42181ba5a784f411d7cca/c1b63/script_before.png&quot;
+        srcset=&quot;/static/942a952d0bb42181ba5a784f411d7cca/5a46d/script_before.png 300w,
+/static/942a952d0bb42181ba5a784f411d7cca/0a47e/script_before.png 600w,
+/static/942a952d0bb42181ba5a784f411d7cca/c1b63/script_before.png 1200w,
+/static/942a952d0bb42181ba5a784f411d7cca/d61c2/script_before.png 1800w,
+/static/942a952d0bb42181ba5a784f411d7cca/97a96/script_before.png 2400w,
+/static/942a952d0bb42181ba5a784f411d7cca/97755/script_before.png 2536w&quot;
+        sizes=&quot;(max-width: 1200px) 100vw, 1200px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
       /&gt;
@@ -110,21 +127,23 @@ bpy모듈을 설치하고 나면 이 Scripts폴더에 숫자(아마도 사용하
 &lt;/ul&gt;
 &lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
-      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 648px; &quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 1200px; &quot;
     &gt;
       &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 66.33333333333333%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAECBf/EABQBAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhADEAAAAe9LDQP/xAAVEAEBAAAAAAAAAAAAAAAAAAAQAf/aAAgBAQABBQJj/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPwE//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPwE//8QAFBABAAAAAAAAAAAAAAAAAAAAIP/aAAgBAQAGPwJf/8QAGRAAAgMBAAAAAAAAAAAAAAAAABEBECEx/9oACAEBAAE/IYg19EYYq//aAAwDAQACAAMAAAAQEA//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/ED//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/ED//xAAaEAACAwEBAAAAAAAAAAAAAAAAEQEhQTFR/9oACAEBAAE/EHQ3vhg3SEgjQ3bJ6vSNP//Z&apos;); background-size: cover; display: block;&quot;
+    style=&quot;padding-bottom: 66.33333333333333%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAANCAYAAACpUE5eAAAACXBIWXMAABYlAAAWJQFJUiTwAAAB8UlEQVQ4y21Ti27bMAz0/3/cgK0oEmRNgCFt/JIl23pYsmTfSDXxnLUCZMoieTqdyGIcRxitIdoWzlrITmTbCYHgPbCuWJeFzJItfRDnGZNzSCnCTw5aj7DWYKb9wk4TlLbwCZjmBS6kbKfIc4UNEVXXo+113vNphRgMjJ/z2lK80g6OcmJaUBhb4+VyxKGZcekXnFWiebf0fxIBv64SL+89fv4ReC01rRV+XOqn2DeaOhBg8hVUe0Sk0z/HuptAihHDoDCOA5TsSA6DcSDGTb3F7HMyoChfMdK1s4s1u08erIvqFXoCkQRoCHCgddM2n3FbTpYbRfQlZMMM128BIzFkQAbp6MG00ej7HnVdbzH7nMxQNgc62W/OvY1xzgAM2BOwporgdSvaL7E8iGENUR/hXHg6aQ8olcwsBYEwQ6UUqqrCsiwb0MbQOYuyvOHj9gEf/JNzuzIBPpg5qjvO6bou6/uIH4YBIQQUDTkOpyOu71d4/x3gjJYegK/NDEcqYr56WZV578FSSpnzi4kK+0bsOMAY8wWQu4EB2McsLHURdxfLIOiR+IAHw9wpgzY4nX/jfH77Vwr/lQ2/KAM0VHvMil+bSfA/E2KWglo1M5xJI2N17mc+ba8LDw7mQNbX+yn7A60ZyFE/h7vurF9KCX8B6hDueyR0zhoAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
   &lt;img
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;옮긴후&quot;
         title=&quot;옮긴후&quot;
-        src=&quot;/static/c80c936507f6d1e373ec38e64cc93bb6/6e52e/%EC%98%AE%EA%B8%B4%ED%9B%84.jpg&quot;
-        srcset=&quot;/static/c80c936507f6d1e373ec38e64cc93bb6/f93b5/%EC%98%AE%EA%B8%B4%ED%9B%84.jpg 300w,
-/static/c80c936507f6d1e373ec38e64cc93bb6/b4294/%EC%98%AE%EA%B8%B4%ED%9B%84.jpg 600w,
-/static/c80c936507f6d1e373ec38e64cc93bb6/6e52e/%EC%98%AE%EA%B8%B4%ED%9B%84.jpg 648w&quot;
-        sizes=&quot;(max-width: 648px) 100vw, 648px&quot;
+        src=&quot;/static/7e96bf271b38b88e305e0feeec908bbc/c1b63/script_after.png&quot;
+        srcset=&quot;/static/7e96bf271b38b88e305e0feeec908bbc/5a46d/script_after.png 300w,
+/static/7e96bf271b38b88e305e0feeec908bbc/0a47e/script_after.png 600w,
+/static/7e96bf271b38b88e305e0feeec908bbc/c1b63/script_after.png 1200w,
+/static/7e96bf271b38b88e305e0feeec908bbc/d61c2/script_after.png 1800w,
+/static/7e96bf271b38b88e305e0feeec908bbc/bf668/script_after.png 2328w&quot;
+        sizes=&quot;(max-width: 1200px) 100vw, 1200px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
       /&gt;
