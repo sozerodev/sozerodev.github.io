@@ -1,7 +1,7 @@
 ---
 title: 'bpy모듈 설치하기'
 date: 2021-03-23 22:35:00
-category: 'cesium'
+category: 'modeling'
 draft: false
 ---
 
