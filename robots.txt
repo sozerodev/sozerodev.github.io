@@ -1,2 +1,4 @@
 User-agent: *
-Disallow:
+Allow: /
+Sitemap: https://sozerodev.github.io/sitemap.xml
+Host: https://sozerodev.github.io

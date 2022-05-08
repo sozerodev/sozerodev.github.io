@@ -1,4 +1,131 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[soyoung's devLog]]></title><description><![CDATA[devLog]]></description><link>https://sozerodev.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Fri, 29 Apr 2022 15:24:44 GMT</lastBuildDate><item><title><![CDATA[2022-04-29 TIL]]></title><description><![CDATA[노드 cli모듈을 노드 모듈에서 불러 쓰기 spawn함수를 사용하여 gltf-transform 이라는 노드 모듈을 사용해야 했다. 비동기가 중심인 node이지만 기존의 소스코드에서 해당 모듈을 사용하려면 동기방식으로 사용해야 했기 때문에 spawn…]]></description><link>https://sozerodev.github.io/TIL/2022/4/2022-04-29/</link><guid isPermaLink="false">https://sozerodev.github.io/TIL/2022/4/2022-04-29/</guid><pubDate>Fri, 29 Apr 2022 22:35:00 GMT</pubDate><content:encoded>&lt;h1 id=&quot;노드-cli모듈을-노드-모듈에서-불러-쓰기&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EB%85%B8%EB%93%9C-cli%EB%AA%A8%EB%93%88%EC%9D%84-%EB%85%B8%EB%93%9C-%EB%AA%A8%EB%93%88%EC%97%90%EC%84%9C-%EB%B6%88%EB%9F%AC-%EC%93%B0%EA%B8%B0&quot; aria-label=&quot;노드 cli모듈을 노드 모듈에서 불러 쓰기 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;노드 cli모듈을 노드 모듈에서 불러 쓰기&lt;/h1&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[soyoung's devLog]]></title><description><![CDATA[devLog]]></description><link>https://sozerodev.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Sun, 08 May 2022 13:39:07 GMT</lastBuildDate><item><title><![CDATA[2022-05-08 TIL]]></title><description><![CDATA[개발할 때마다 rest api…]]></description><link>https://sozerodev.github.io/TIL/2022/4/2022-05-08TIL/</link><guid isPermaLink="false">https://sozerodev.github.io/TIL/2022/4/2022-05-08TIL/</guid><pubDate>Sun, 08 May 2022 22:00:00 GMT</pubDate><content:encoded>&lt;blockquote&gt;
+&lt;p&gt;개발할 때마다 rest api를 통해 데이터를 가져올 때 ‘아 솔직히 이것까진 필요 없는데..’ 생각이 들었었다. 하지만 굳이 한번밖에 안쓰이는 걸 이것땜에 백에서 메소드를 따로 또 만들기는 더 비효율적이다 싶었다. 그래서 그냥 디비에서 데이터를 몽땅 가져와서 클라이언트에서 골라다 쓰곤 했었는데..&lt;/br&gt;
+그러던 중 Graph QL을 알게 된다면? 오호라..&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h1 id=&quot;graph-ql이란&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#graph-ql%EC%9D%B4%EB%9E%80&quot; aria-label=&quot;graph ql이란 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Graph QL이란?&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;SQL과 같은 쿼리 언어&lt;/li&gt;
+&lt;li&gt;하지만 sql과 언어적 구조 차이가 있음. sql은 DB에서 데이터를 효율적으로 가져오는 것이 목적인 반면 Graph QL은 클라이언트가 서버로부터 데이터를 가져올 때 효율적으로 가져오는 것이 목적&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&quot;그래서-뭐가-다른겨&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EA%B7%B8%EB%9E%98%EC%84%9C-%EB%AD%90%EA%B0%80-%EB%8B%A4%EB%A5%B8%EA%B2%A8&quot; aria-label=&quot;그래서 뭐가 다른겨 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;그래서 뭐가 다른겨?&lt;/h1&gt;
+&lt;h2 id=&quot;graphql&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#graphql&quot; aria-label=&quot;graphql permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;GraphQL&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;원하는 데이터의 키만 골라 요청할 수 있기 때문에 속도가 빠르다.&lt;/li&gt;
+&lt;li&gt;대신 원하는 데이터가 다르면 코드가 길어진다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;restapi&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#restapi&quot; aria-label=&quot;restapi permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;RestAPI&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;몽땅 부른다음 원하는 것만 골라 쓰는 것이 가능하다.&lt;/li&gt;
+&lt;li&gt;대신 필요없는 것까지 가져오기 때문에 비효율적이다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;참고&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EC%B0%B8%EA%B3%A0&quot; aria-label=&quot;참고 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;참고&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&quot;https://graphql.org/&quot;&gt;공식문서&lt;/a&gt; &lt;/br&gt;
+&lt;a href=&quot;https://graphql-kr.github.io/&quot;&gt;한글 공식문서&lt;/a&gt; &lt;/br&gt;
+&lt;a href=&quot;https://www.youtube.com/watch?v=EkWI6Ru8lFQ&quot;&gt;얄팍한 코딩사전&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/br&gt;&lt;/br&gt;&lt;/br&gt;
+이렇게 좋은 것이 있었다니.. 언젠가 제대로 써볼 기회가 있을까 @-@.. 있으면 좋겠다~&lt;/p&gt;</content:encoded></item><item><title><![CDATA[warn: toktx: Texture dimensions 320x320 are NPOT, and may fail in older APIs (including WebGL 1.0) on certain devices.]]></title><description><![CDATA[( 노드 모듈을 사용하여) 가 실행될 때, 일반 gltf 모델을 ktx2를 통해 텍스쳐를 압축한 ktx gltf모델로 변환하던 중 발생할 수 있는 에러 다음 에러가 발생한 후 ktx gltf로 변환된 모델을 확인하면 텍스쳐가 붙어있으나, 3d…]]></description><link>https://sozerodev.github.io/Error/webglError/</link><guid isPermaLink="false">https://sozerodev.github.io/Error/webglError/</guid><pubDate>Fri, 06 May 2022 00:00:00 GMT</pubDate><content:encoded>&lt;ul&gt;
+&lt;li&gt;(&lt;code class=&quot;language-text&quot;&gt;gltf-transform&lt;/code&gt; 노드 모듈을 사용하여) &lt;code class=&quot;language-text&quot;&gt;toktx.exe&lt;/code&gt;가 실행될 때, 일반 gltf 모델을 &lt;a href=&quot;https://github.khronos.org/KTX-Specification/&quot;&gt;ktx2&lt;/a&gt;를 통해 텍스쳐를 압축한 ktx gltf모델로 변환하던 중 발생할 수 있는 에러&lt;/li&gt;
+&lt;li&gt;다음 에러가 발생한 후 ktx gltf로 변환된 모델을 확인하면 텍스쳐가 붙어있으나, &lt;a href=&quot;https://github.com/CesiumGS/3d-tiles&quot;&gt;3d tiles&lt;/a&gt; 로 변환했을 때 텍스쳐가 올바르게 붙지 않음을 확인함&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;해결책&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%ED%95%B4%EA%B2%B0%EC%B1%85&quot; aria-label=&quot;해결책 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;해결책&lt;/h2&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;node gltf-transform etc1s 입력경로 출력경로 --power-of-two&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;이와 같이 실행하여 만든 ktx gltf를 tileset으로 변환하면 올바르게 텍스쳐가 붙는 것을 확인할 수 있음&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;참고&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EC%B0%B8%EA%B3%A0&quot; aria-label=&quot;참고 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;참고&lt;/h3&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;gltf-transform etc1s --help&lt;/code&gt;
+를 치면 다음과 같이 ect1s 기능에 대한 옵션값의 정보가 나열된다.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;  cli.js 2.1.5 — Commandline interface for the glTF-Transform SDK.
+
+  USAGE — etc1s
+
+    ▸ cli.js etc1s &amp;lt;input&amp;gt; &amp;lt;output&amp;gt; [OPTIONS...]
+
+
+  SUMMARY
+
+    Compresses textures in the given file to .ktx2 GPU textures using the
+    ETC1S Basis Universal bitstream. GPU textures offer faster GPU upload
+    and less GPU memory consumption than traditional PNG or JPEG textures,
+    which are fully uncompressed in GPU memory. GPU texture formats require
+    more attention to compression settings to get similar visual results.
+
+    ETC1S, one of the two Basis Universal bitstreams, offers lower size and lower
+    quality than UASTC. In some cases it may be useful to increase the resolution
+    of the texture, to minimize compression artifacts while still retaining an
+    overall smaller filesize. Consider using less aggressive compression settings
+    for normal maps than for other texture types: you may want to use UASTC for
+    normal maps and ETC1S for other textures, for example.
+
+    Documentation
+    https://gltf-transform.donmccurdy.com/extensions.html#khr_texture_basisu
+
+    Dependencies
+    KTX-Software (https://github.com/KhronosGroup/KTX-Software/)
+
+
+  ARGUMENTS
+
+    &amp;lt;input&amp;gt;                              Path to read glTF 2.0 (.glb, .gltf) model
+    &amp;lt;output&amp;gt;                             Path to write output
+
+  OPTIONS
+
+    --compression &amp;lt;clevel&amp;gt;               Compression level, an encoding speed vs. quality
+                                         tradeoff. Higher values are slower, but give higher
+                                         quality. Try --quality before experimenting with this
+                                         option.
+                                         one of 0,1,2,3,4,5, default: 1
+    --filter &amp;lt;filter&amp;gt;                    Specifies the filter to use when generating mipmaps.
+                                         one of
+                                         &amp;quot;box&amp;quot;,&amp;quot;tent&amp;quot;,&amp;quot;bell&amp;quot;,&amp;quot;b-spline&amp;quot;,&amp;quot;mitchell&amp;quot;,
+                                         &amp;quot;lanczos3&amp;quot;,&amp;quot;lanczos4&amp;quot;,&amp;quot;lanczos6&amp;quot;,&amp;quot;lanczos12&amp;quot;,
+                                         &amp;quot;blackman&amp;quot;,&amp;quot;kaiser&amp;quot;,&amp;quot;gaussian&amp;quot;,&amp;quot;catmullrom&amp;quot;,
+                                         &amp;quot;quadratic_interp&amp;quot;,&amp;quot;quadratic_approx&amp;quot;,&amp;quot;quadratic_
+                                         mix&amp;quot;, default: &amp;quot;lanczos4&amp;quot;
+    --filter-scale &amp;lt;fscale&amp;gt;              Specifies the filter scale to use when generating
+                                         mipmaps.
+                                         number, default: 1
+    --jobs &amp;lt;num_jobs&amp;gt;                    Spawns up to num_jobs instances of toktx
+                                         number, default: 12
+    --max-endpoints &amp;lt;max_endpoints&amp;gt;      Manually set the maximum number of color endpoint
+                                         clusters from 1-16128.
+                                         number
+    --max-selectors &amp;lt;max_selectors&amp;gt;      Manually set the maximum number of color selector
+                                         clusters from 1-16128.
+                                         number
+    --power-of-two                       Resizes any non-power-of-two textures to the closest
+                                         power-of-two dimensions, not exceeding 2048x2048px.
+                                         Required for  compatibility on some older devices and
+                                         APIs, particularly  WebGL 1.0.
+                                         boolean
+    --quality &amp;lt;qlevel&amp;gt;                   Quality level. Range is 1 - 255. Lower gives better
+                                         compression, lower quality, and faster encoding. Higher
+                                         gives less compression, higher quality, and slower
+                                         encoding. Quality level determines values of
+                                         --max_endpoints and --max-selectors, unless those
+                                         values are explicitly set.
+                                         number, default: 128
+    --rdo-off                            Disable endpoint and selector RDO (slightly faster,
+                                         less noisy output, but lower quality per output bit).
+                                         boolean
+    --rdo-threshold &amp;lt;rdo_threshold&amp;gt;      Set endpoint and selector RDO quality threshold. Lower
+                                         is higher quality but less quality per output bit (try
+                                         1.0-3.0). Overrides --quality.
+                                         number
+    --slots &amp;lt;slots&amp;gt;                      Texture slots to include (glob)
+                                         default: &amp;quot;*&amp;quot;
+
+  GLOBAL OPTIONS
+
+    -h, --help                           Display global help or command-related help.
+    -V, --version                        Display version.
+    -v, --verbose                        Verbose mode: will also output debug messages.
+    --allow-http                         Allows reads from HTTP requests.
+                                         boolean
+    --vertex-layout &amp;lt;layout&amp;gt;             Vertex buffer layout preset.
+                                         one of &amp;quot;interleaved&amp;quot;,&amp;quot;separate&amp;quot;, default:
+                                         &amp;quot;interleaved&amp;quot;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[2022-04-29 TIL]]></title><description><![CDATA[노드 cli모듈을 노드 모듈에서 불러 쓰기 spawn함수를 사용하여 gltf-transform 이라는 노드 모듈을 사용해야 했다. 비동기가 중심인 node이지만 기존의 소스코드에서 해당 모듈을 사용하려면 동기방식으로 사용해야 했기 때문에 spawn…]]></description><link>https://sozerodev.github.io/TIL/2022/4/2022-04-29/</link><guid isPermaLink="false">https://sozerodev.github.io/TIL/2022/4/2022-04-29/</guid><pubDate>Fri, 29 Apr 2022 22:35:00 GMT</pubDate><content:encoded>&lt;h1 id=&quot;노드-cli모듈을-노드-모듈에서-불러-쓰기&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EB%85%B8%EB%93%9C-cli%EB%AA%A8%EB%93%88%EC%9D%84-%EB%85%B8%EB%93%9C-%EB%AA%A8%EB%93%88%EC%97%90%EC%84%9C-%EB%B6%88%EB%9F%AC-%EC%93%B0%EA%B8%B0&quot; aria-label=&quot;노드 cli모듈을 노드 모듈에서 불러 쓰기 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;노드 cli모듈을 노드 모듈에서 불러 쓰기&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;spawn함수를 사용하여 &lt;a href=&quot;https://github.com/donmccurdy/glTF-Transform&quot;&gt;gltf-transform&lt;/a&gt; 이라는 노드 모듈을 사용해야 했다.&lt;/li&gt;
 &lt;li&gt;비동기가 중심인 node이지만 기존의 소스코드에서 해당 모듈을 사용하려면 동기방식으로 사용해야 했기 때문에 spawn이 아닌 &lt;a href=&quot;https://nodejs.org/api/child_process.html&quot;&gt;spawnsync&lt;/a&gt;를 사용함.&lt;/li&gt;
