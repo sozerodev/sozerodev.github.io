@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[soyoung's devLog]]></title><description><![CDATA[devLog]]></description><link>https://sozerodev.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Sun, 15 May 2022 07:16:23 GMT</lastBuildDate><item><title><![CDATA[gltf-transform 모듈 실행 시 error: Cannot convert undefined or null to object ]]></title><description><![CDATA[에러 메시지  다음과 같은 에러가 뜰 때가 있다. etc1s라는 옵션은 ktx를 활용하여 텍스쳐를 압축시키는데, 해당 모듈의 옵션을 사용하고 싶을 때 로컬 환경에 ktx를 설치해주어야 한다. https://github.com/KhronosGroup…]]></description><link>https://sozerodev.github.io/Error/gltf_transform/</link><guid isPermaLink="false">https://sozerodev.github.io/Error/gltf_transform/</guid><pubDate>Fri, 13 May 2022 22:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;에러-메시지&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EC%97%90%EB%9F%AC-%EB%A9%94%EC%8B%9C%EC%A7%80&quot; aria-label=&quot;에러 메시지 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;에러 메시지&lt;/h2&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[soyoung's devLog]]></title><description><![CDATA[devLog]]></description><link>https://sozerodev.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Sun, 15 May 2022 07:30:06 GMT</lastBuildDate><item><title><![CDATA[gltf-transform 모듈 실행 시 error: Cannot convert undefined or null to object ]]></title><description><![CDATA[에러 메시지  다음과 같은 에러가 뜰 때가 있다. etc1s라는 옵션은 ktx를 활용하여 텍스쳐를 압축시키는데, 해당 모듈의 옵션을 사용하고 싶을 때 로컬 환경에 ktx를 설치해주어야 한다. https://github.com/KhronosGroup…]]></description><link>https://sozerodev.github.io/Error/gltf_transform/</link><guid isPermaLink="false">https://sozerodev.github.io/Error/gltf_transform/</guid><pubDate>Fri, 13 May 2022 22:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;에러-메시지&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EC%97%90%EB%9F%AC-%EB%A9%94%EC%8B%9C%EC%A7%80&quot; aria-label=&quot;에러 메시지 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;에러 메시지&lt;/h2&gt;
 &lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 823px; &quot;
@@ -108,7 +108,7 @@
 
   USAGE — etc1s
 
-    ▸ cli.js etc1s &amp;lt;input&amp;gt; &amp;lt;output&amp;gt; [OPTIONS...]
+    ▸ cli.js etc1s &amp;lt;input&gt; &amp;lt;output&gt; [OPTIONS...]
 
 
   SUMMARY
@@ -135,32 +135,32 @@
 
   ARGUMENTS
 
-    &amp;lt;input&amp;gt;                              Path to read glTF 2.0 (.glb, .gltf) model
-    &amp;lt;output&amp;gt;                             Path to write output
+    &amp;lt;input&gt;                              Path to read glTF 2.0 (.glb, .gltf) model
+    &amp;lt;output&gt;                             Path to write output
 
   OPTIONS
 
-    --compression &amp;lt;clevel&amp;gt;               Compression level, an encoding speed vs. quality
+    --compression &amp;lt;clevel&gt;               Compression level, an encoding speed vs. quality
                                          tradeoff. Higher values are slower, but give higher
                                          quality. Try --quality before experimenting with this
                                          option.
                                          one of 0,1,2,3,4,5, default: 1
-    --filter &amp;lt;filter&amp;gt;                    Specifies the filter to use when generating mipmaps.
+    --filter &amp;lt;filter&gt;                    Specifies the filter to use when generating mipmaps.
                                          one of
-                                         &amp;quot;box&amp;quot;,&amp;quot;tent&amp;quot;,&amp;quot;bell&amp;quot;,&amp;quot;b-spline&amp;quot;,&amp;quot;mitchell&amp;quot;,
-                                         &amp;quot;lanczos3&amp;quot;,&amp;quot;lanczos4&amp;quot;,&amp;quot;lanczos6&amp;quot;,&amp;quot;lanczos12&amp;quot;,
-                                         &amp;quot;blackman&amp;quot;,&amp;quot;kaiser&amp;quot;,&amp;quot;gaussian&amp;quot;,&amp;quot;catmullrom&amp;quot;,
-                                         &amp;quot;quadratic_interp&amp;quot;,&amp;quot;quadratic_approx&amp;quot;,&amp;quot;quadratic_
-                                         mix&amp;quot;, default: &amp;quot;lanczos4&amp;quot;
-    --filter-scale &amp;lt;fscale&amp;gt;              Specifies the filter scale to use when generating
+                                         &quot;box&quot;,&quot;tent&quot;,&quot;bell&quot;,&quot;b-spline&quot;,&quot;mitchell&quot;,
+                                         &quot;lanczos3&quot;,&quot;lanczos4&quot;,&quot;lanczos6&quot;,&quot;lanczos12&quot;,
+                                         &quot;blackman&quot;,&quot;kaiser&quot;,&quot;gaussian&quot;,&quot;catmullrom&quot;,
+                                         &quot;quadratic_interp&quot;,&quot;quadratic_approx&quot;,&quot;quadratic_
+                                         mix&quot;, default: &quot;lanczos4&quot;
+    --filter-scale &amp;lt;fscale&gt;              Specifies the filter scale to use when generating
                                          mipmaps.
                                          number, default: 1
-    --jobs &amp;lt;num_jobs&amp;gt;                    Spawns up to num_jobs instances of toktx
+    --jobs &amp;lt;num_jobs&gt;                    Spawns up to num_jobs instances of toktx
                                          number, default: 12
-    --max-endpoints &amp;lt;max_endpoints&amp;gt;      Manually set the maximum number of color endpoint
+    --max-endpoints &amp;lt;max_endpoints&gt;      Manually set the maximum number of color endpoint
                                          clusters from 1-16128.
                                          number
-    --max-selectors &amp;lt;max_selectors&amp;gt;      Manually set the maximum number of color selector
+    --max-selectors &amp;lt;max_selectors&gt;      Manually set the maximum number of color selector
                                          clusters from 1-16128.
                                          number
     --power-of-two                       Resizes any non-power-of-two textures to the closest
@@ -168,7 +168,7 @@
                                          Required for  compatibility on some older devices and
                                          APIs, particularly  WebGL 1.0.
                                          boolean
-    --quality &amp;lt;qlevel&amp;gt;                   Quality level. Range is 1 - 255. Lower gives better
+    --quality &amp;lt;qlevel&gt;                   Quality level. Range is 1 - 255. Lower gives better
                                          compression, lower quality, and faster encoding. Higher
                                          gives less compression, higher quality, and slower
                                          encoding. Quality level determines values of
@@ -178,12 +178,12 @@
     --rdo-off                            Disable endpoint and selector RDO (slightly faster,
                                          less noisy output, but lower quality per output bit).
                                          boolean
-    --rdo-threshold &amp;lt;rdo_threshold&amp;gt;      Set endpoint and selector RDO quality threshold. Lower
+    --rdo-threshold &amp;lt;rdo_threshold&gt;      Set endpoint and selector RDO quality threshold. Lower
                                          is higher quality but less quality per output bit (try
                                          1.0-3.0). Overrides --quality.
                                          number
-    --slots &amp;lt;slots&amp;gt;                      Texture slots to include (glob)
-                                         default: &amp;quot;*&amp;quot;
+    --slots &amp;lt;slots&gt;                      Texture slots to include (glob)
+                                         default: &quot;*&quot;
 
   GLOBAL OPTIONS
 
@@ -192,9 +192,9 @@
     -v, --verbose                        Verbose mode: will also output debug messages.
     --allow-http                         Allows reads from HTTP requests.
                                          boolean
-    --vertex-layout &amp;lt;layout&amp;gt;             Vertex buffer layout preset.
-                                         one of &amp;quot;interleaved&amp;quot;,&amp;quot;separate&amp;quot;, default:
-                                         &amp;quot;interleaved&amp;quot;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[2022-04-29 TIL]]></title><description><![CDATA[노드 cli모듈을 노드 모듈에서 불러 쓰기 spawn함수를 사용하여 gltf-transform 이라는 노드 모듈을 사용해야 했다. 비동기가 중심인 node이지만 기존의 소스코드에서 해당 모듈을 사용하려면 동기방식으로 사용해야 했기 때문에 spawn…]]></description><link>https://sozerodev.github.io/TIL/2022/4/2022-04-29/</link><guid isPermaLink="false">https://sozerodev.github.io/TIL/2022/4/2022-04-29/</guid><pubDate>Fri, 29 Apr 2022 22:35:00 GMT</pubDate><content:encoded>&lt;h1 id=&quot;노드-cli모듈을-노드-모듈에서-불러-쓰기&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EB%85%B8%EB%93%9C-cli%EB%AA%A8%EB%93%88%EC%9D%84-%EB%85%B8%EB%93%9C-%EB%AA%A8%EB%93%88%EC%97%90%EC%84%9C-%EB%B6%88%EB%9F%AC-%EC%93%B0%EA%B8%B0&quot; aria-label=&quot;노드 cli모듈을 노드 모듈에서 불러 쓰기 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;노드 cli모듈을 노드 모듈에서 불러 쓰기&lt;/h1&gt;
+    --vertex-layout &amp;lt;layout&gt;             Vertex buffer layout preset.
+                                         one of &quot;interleaved&quot;,&quot;separate&quot;, default:
+                                         &quot;interleaved&quot;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[2022-04-29 TIL]]></title><description><![CDATA[노드 cli모듈을 노드 모듈에서 불러 쓰기 spawn함수를 사용하여 gltf-transform 이라는 노드 모듈을 사용해야 했다. 비동기가 중심인 node이지만 기존의 소스코드에서 해당 모듈을 사용하려면 동기방식으로 사용해야 했기 때문에 spawn…]]></description><link>https://sozerodev.github.io/TIL/2022/4/2022-04-29/</link><guid isPermaLink="false">https://sozerodev.github.io/TIL/2022/4/2022-04-29/</guid><pubDate>Fri, 29 Apr 2022 22:35:00 GMT</pubDate><content:encoded>&lt;h1 id=&quot;노드-cli모듈을-노드-모듈에서-불러-쓰기&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EB%85%B8%EB%93%9C-cli%EB%AA%A8%EB%93%88%EC%9D%84-%EB%85%B8%EB%93%9C-%EB%AA%A8%EB%93%88%EC%97%90%EC%84%9C-%EB%B6%88%EB%9F%AC-%EC%93%B0%EA%B8%B0&quot; aria-label=&quot;노드 cli모듈을 노드 모듈에서 불러 쓰기 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;노드 cli모듈을 노드 모듈에서 불러 쓰기&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;spawn함수를 사용하여 &lt;a href=&quot;https://github.com/donmccurdy/glTF-Transform&quot;&gt;gltf-transform&lt;/a&gt; 이라는 노드 모듈을 사용해야 했다.&lt;/li&gt;
 &lt;li&gt;비동기가 중심인 node이지만 기존의 소스코드에서 해당 모듈을 사용하려면 동기방식으로 사용해야 했기 때문에 spawn이 아닌 &lt;a href=&quot;https://nodejs.org/api/child_process.html&quot;&gt;spawnsync&lt;/a&gt;를 사용함.&lt;/li&gt;
@@ -284,14 +284,14 @@ etc1s는 다소 원본보다 낮은 퀄리티와 낮은 용량, uastc는 높은 
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;javascript&quot;&gt;&lt;pre class=&quot;language-javascript&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;// JavaScript Object 형태&lt;/span&gt;
 &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;
     &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
-        id &lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
-        name &lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;성춘향&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
-        likes &lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;football&quot;&lt;/span&gt;
+        &lt;span class=&quot;token literal-property property&quot;&gt;id&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+        &lt;span class=&quot;token literal-property property&quot;&gt;name&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;성춘향&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+        &lt;span class=&quot;token literal-property property&quot;&gt;likes&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;football&quot;&lt;/span&gt;
     &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
     &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
-        id &lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
-        name &lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;향단이&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
-        likes &lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;baseball&quot;&lt;/span&gt;
+        &lt;span class=&quot;token literal-property property&quot;&gt;id&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+        &lt;span class=&quot;token literal-property property&quot;&gt;name&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;향단이&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+        &lt;span class=&quot;token literal-property property&quot;&gt;likes&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;baseball&quot;&lt;/span&gt;
     &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
 &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;blockquote&gt;
@@ -352,7 +352,7 @@ github]]></description><link>https://sozerodev.github.io/Error/exif/</link><guid
         loading=&quot;lazy&quot;
       /&gt;
     &lt;/span&gt;&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;Error: Something went wrong installing the &amp;quot;sharp&amp;quot; modules&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;Error: Something went wrong installing the &quot;sharp&quot; modules&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;h3 id=&quot;해결책&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%ED%95%B4%EA%B2%B0%EC%B1%85&quot; aria-label=&quot;해결책 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;해결책&lt;/h3&gt;
 &lt;p&gt;출처 : &lt;a href=&quot;https://stackoverflow.com/questions/54409953/cant-install-sharp&quot;&gt;https://stackoverflow.com/questions/54409953/cant-install-sharp&lt;/a&gt;&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;npm install sharp@0.23.2&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
@@ -407,7 +407,7 @@ for i in bpy.data.objects:
     &lt;/span&gt;
 &lt;/br&gt;&lt;/br&gt;&lt;/p&gt;
 &lt;ol start=&quot;2&quot;&gt;
-&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;No module named &amp;#39;bpy_types&amp;#39;&lt;/code&gt; 에러 &lt;/br&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;No module named &apos;bpy_types&apos;&lt;/code&gt; 에러 &lt;/br&gt;
 블렌더 자체가 오픈소스라 깃허브에 이슈에 관한 내용이 등록되어 있다. (&lt;a href=&quot;https://github.com/TylerGubala/blenderpy/issues/13&quot;&gt;바로여기&lt;/a&gt;)&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;이건 로컬의 파이썬이 위치한 경로에서 폴더 위치만 바꿔주면 된다. &lt;/br&gt;
@@ -484,7 +484,7 @@ bpy모듈을 설치하고 나면 이 Scripts폴더에 숫자(아마도 사용하
 gatsby로 만드는 깃 블로그는 생각보다 구축하는데 어렵지 않았고.. &lt;code class=&quot;language-text&quot;&gt;yarn deploy&lt;/code&gt; 만 잘하면 되는구나..^^! 하며 무사히 배포 완료. &lt;/br&gt;
 입사 이후로 개발 블로그를 좀 소홀히 했었는데 게으름 피우기를 멀리하고 다시 열심히 글을 써보는 것으로.&lt;/br&gt;
 &lt;/br&gt;
-어찌됐건 다시 블로그를 열심히 써보겠습니다.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[useEffect와 useState]]></title><description><![CDATA[작년 11월 말부터 리액트를  시작했는데 어찌저찌 프로젝트 마무리가 다 되어 간다.. 
+어찌됐건 다시 블로그를 열심히 써보겠습니다.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[리액트 컴포넌트에 대하여]]></title><description><![CDATA[Container와 Presenter]]></description><link>https://sozerodev.github.io/react/component/</link><guid isPermaLink="false">https://sozerodev.github.io/react/component/</guid><pubDate>Sun, 07 Feb 2021 06:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Container와 Presenter&lt;/p&gt;</content:encoded></item><item><title><![CDATA[useEffect와 useState]]></title><description><![CDATA[작년 11월 말부터 리액트를  시작했는데 어찌저찌 프로젝트 마무리가 다 되어 간다.. 
 거의 우는 소리로 이게 뭐야~~ 내적 비명을 외치게 했던 것들 가운데.. useEffect와 useState…]]></description><link>https://sozerodev.github.io/react/useEffect_useState/</link><guid isPermaLink="false">https://sozerodev.github.io/react/useEffect_useState/</guid><pubDate>Sun, 07 Feb 2021 06:00:00 GMT</pubDate><content:encoded>&lt;blockquote&gt;
 &lt;p&gt;작년 11월 말부터 리액트를 &lt;code class=&quot;language-text&quot;&gt;난생 처음&lt;/code&gt; 시작했는데 어찌저찌 프로젝트 마무리가 다 되어 간다.. &lt;/br&gt;
 거의 우는 소리로 이게 뭐야~~ 내적 비명을 외치게 했던 것들 가운데.. useEffect와 useState.. 지금은 가장 많이 잘 쓰고 있다. 🤣 &lt;/p&gt;
@@ -493,7 +493,7 @@ gatsby로 만드는 깃 블로그는 생각보다 구축하는데 어렵지 않�
 &lt;p&gt;그냥 한줄로 표현해서 &lt;code class=&quot;language-text&quot;&gt;저 값을 재사용하고싶고요...., 값이 바뀔때마다 특정 이벤트를 발생시켜주면 좋겠어요.....,,,&lt;/code&gt; 하는 것. &lt;/br&gt;
 useState를 이용해 값을 재사용하고 useEffect는 값이 바뀔 때마다 실행시키고 싶은 코드를 넣는다는 것이다. &lt;/br&gt;&lt;/p&gt;
 &lt;p&gt;추후 수정&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;     &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[리액트 컴포넌트에 대하여]]></title><description><![CDATA[Container와 Presenter]]></description><link>https://sozerodev.github.io/react/component/</link><guid isPermaLink="false">https://sozerodev.github.io/react/component/</guid><pubDate>Sun, 07 Feb 2021 06:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Container와 Presenter&lt;/p&gt;</content:encoded></item><item><title><![CDATA[2022-01-08 TIL]]></title><description><![CDATA[리액트 리액트에서 자주 쓰는 if문 작성 패턴 5개 (enumerator..) 쓸데없는 재렌더링을 막는 memo 리액트와 리덕스를 활용한 미니 프로젝트 알고리즘]]></description><link>https://sozerodev.github.io/TIL/2022-01-08TIL/</link><guid isPermaLink="false">https://sozerodev.github.io/TIL/2022-01-08TIL/</guid><pubDate>Fri, 08 Jan 2021 00:00:00 GMT</pubDate><content:encoded>&lt;h1 id=&quot;리액트&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EB%A6%AC%EC%95%A1%ED%8A%B8&quot; aria-label=&quot;리액트 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;리액트&lt;/h1&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;     &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[2022-01-08 TIL]]></title><description><![CDATA[리액트 리액트에서 자주 쓰는 if문 작성 패턴 5개 (enumerator..) 쓸데없는 재렌더링을 막는 memo 리액트와 리덕스를 활용한 미니 프로젝트 알고리즘]]></description><link>https://sozerodev.github.io/TIL/2022-01-08TIL/</link><guid isPermaLink="false">https://sozerodev.github.io/TIL/2022-01-08TIL/</guid><pubDate>Fri, 08 Jan 2021 00:00:00 GMT</pubDate><content:encoded>&lt;h1 id=&quot;리액트&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EB%A6%AC%EC%95%A1%ED%8A%B8&quot; aria-label=&quot;리액트 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;리액트&lt;/h1&gt;
 &lt;h2 id=&quot;리액트에서-자주-쓰는-if문-작성-패턴-5개-enumerator&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EB%A6%AC%EC%95%A1%ED%8A%B8%EC%97%90%EC%84%9C-%EC%9E%90%EC%A3%BC-%EC%93%B0%EB%8A%94-if%EB%AC%B8-%EC%9E%91%EC%84%B1-%ED%8C%A8%ED%84%B4-5%EA%B0%9C-enumerator&quot; aria-label=&quot;리액트에서 자주 쓰는 if문 작성 패턴 5개 enumerator permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;리액트에서 자주 쓰는 if문 작성 패턴 5개 (enumerator..)&lt;/h2&gt;
 &lt;h2 id=&quot;쓸데없는-재렌더링을-막는-memo&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EC%93%B8%EB%8D%B0%EC%97%86%EB%8A%94-%EC%9E%AC%EB%A0%8C%EB%8D%94%EB%A7%81%EC%9D%84-%EB%A7%89%EB%8A%94-memo&quot; aria-label=&quot;쓸데없는 재렌더링을 막는 memo permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;쓸데없는 재렌더링을 막는 memo&lt;/h2&gt;
 &lt;h2 id=&quot;리액트와-리덕스를-활용한-미니-프로젝트&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EB%A6%AC%EC%95%A1%ED%8A%B8%EC%99%80-%EB%A6%AC%EB%8D%95%EC%8A%A4%EB%A5%BC-%ED%99%9C%EC%9A%A9%ED%95%9C-%EB%AF%B8%EB%8B%88-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8&quot; aria-label=&quot;리액트와 리덕스를 활용한 미니 프로젝트 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;리액트와 리덕스를 활용한 미니 프로젝트&lt;/h2&gt;
