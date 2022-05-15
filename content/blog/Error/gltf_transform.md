@@ -16,7 +16,7 @@ etc1s라는 옵션은 ktx를 활용하여 텍스쳐를 압축시키는데, 해�
 
 [https://github.com/KhronosGroup/KTX-Software/releases](https://github.com/KhronosGroup/KTX-Software/releases)
 
-![ktx다운로드](gltf_transform/Untitled%201.png)
+![ktx다운로드](gltf_transform/Untitled_1.png)
 
 `Assets` 부분 밑에 있다.
 
